@@ -19,7 +19,6 @@ import {
   FaCodepen,
   FaBusinessTime,
 } from "react-icons/fa";
-import pdf from "./../Makesh Kumar N_20090193 (1).pdf";
 function Content() {
   return (
     <div className="content">
