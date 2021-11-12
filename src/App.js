@@ -16,6 +16,7 @@ function App() {
         {/* <Skills /> */}
         {/* <Work /> */}
         {/* <Others/> */}
+
         <Switch>
           <Route path="/" exact component={Content} />
           <Route path="/about" exact component={About} />
