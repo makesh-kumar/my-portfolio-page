@@ -19,3 +19,9 @@
   /* border: 1px solid blue; */
   height: 100px;
 }
+@media all and (max-width: 600px) {
+  .work,
+  .work-desc {
+    height: auto;
+  }
+}

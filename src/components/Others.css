@@ -30,3 +30,12 @@
   font-weight: 600;
   padding-right: 15px;
 }
+@media all and (max-width: 600px) {
+  .others,
+  .others-container {
+    height: auto;
+  }
+  .other-proj {
+    flex-basis: auto;
+  }
+}

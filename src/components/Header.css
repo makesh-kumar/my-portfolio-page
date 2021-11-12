@@ -48,3 +48,9 @@ a {
   border: 0.5px solid #fdd538;
   /* font-size: 30px; */
 }
+
+@media all and (max-width: 600px) {
+  .name {
+    font-size: 12px;
+  }
+}

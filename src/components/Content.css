@@ -88,3 +88,9 @@
   background-color: white;
   border: 5px solid #fdd538;
 }
+
+@media all and (max-width: 600px) {
+  .content-body {
+    flex-direction: column;
+  }
+}

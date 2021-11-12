@@ -36,3 +36,8 @@
   position: relative;
   top: 5px;
 }
+@media all and (max-width: 600px) {
+  .skills-container {
+    flex-direction: column;
+  }
+}
