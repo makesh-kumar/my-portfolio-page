@@ -1,0 +1,21 @@
+.work {
+  margin: 10px;
+  /* border: 1px solid green; */
+  height: 100vh;
+  background-color: #fdd538;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  padding: 20px;
+}
+.work-container {
+  display: flex;
+  flex-direction: column;
+}
+.work-header {
+  font-weight: 600;
+  font-size: 20px;
+}
+.work-desc {
+  /* border: 1px solid blue; */
+  height: 100px;
+}

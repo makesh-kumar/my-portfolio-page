@@ -6,6 +6,8 @@ import {
   BsFillTelephone,
   BsEnvelope,
 } from "react-icons/bs";
+import { BrowserRouter, Link, Route } from "react-router-dom";
+
 import {
   FaGithub,
   FaLinkedinIn,
@@ -17,7 +19,7 @@ import {
   FaCodepen,
   FaBusinessTime,
 } from "react-icons/fa";
-
+import pdf from "./../Makesh Kumar N_20090193 (1).pdf";
 function Content() {
   return (
     <div className="content">
@@ -76,7 +78,14 @@ function Content() {
             PageMaker including versions of Lorem Ipsum.
           </h3>
 
-          <button className="btn">See my Resume</button>
+          <a
+            href="https://drive.google.com/file/d/1vAZG88-X4lA3NMYYpnxh8ifycsfKh13f/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            See my Resume
+          </a>
         </div>
       </div>
     </div>

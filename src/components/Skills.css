@@ -1,0 +1,38 @@
+.skills {
+  margin: 10px;
+  /* border: 1px solid green; */
+  height: 100vh;
+  background-color: #fdd538;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+}
+.skills-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.skills-body {
+  /* height: 50vh; */
+  border: 10px solid white;
+  border-radius: 5px;
+}
+.primary,
+.secondary {
+  flex-basis: 30%;
+  padding: 10px;
+  background-color: white;
+}
+.skill-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+.skil-value {
+  font-weight: 400;
+  padding-left: 30px;
+}
+.icons {
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+}

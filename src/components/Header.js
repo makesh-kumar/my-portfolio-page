@@ -1,5 +1,7 @@
 import React from "react";
 import "./Header.css";
+import { BrowserRouter, Link, Route } from "react-router-dom";
+
 function Header() {
   return (
     <div className="header">
@@ -9,10 +11,21 @@ function Header() {
         </div>
 
         <div className="section-container">
-          <div className="item">Home</div>
-          <div className="item">About</div>
-          <div className="item">Contact</div>
-          <div className="item">Work</div>
+          <Link className="item" to="/">
+            Home
+          </Link>
+          <Link className="item" to="/about">
+            About
+          </Link>
+          <Link className="item" to="/skills">
+            Skills
+          </Link>
+          <Link className="item" to="/work">
+            Work
+          </Link>
+          <Link className="item" to="/others">
+            Others
+          </Link>
         </div>
 
         {/* <div className="name-container">

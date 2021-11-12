@@ -20,8 +20,8 @@
   flex-grow: 1;
   padding: 20px;
   font-family: "Poppins", sans-serif;
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  /* color: white; */
   border-radius: 5px;
 }
 .about-photo {
@@ -86,4 +86,5 @@
 }
 .btn:hover {
   background-color: white;
+  border: 5px solid #fdd538;
 }
