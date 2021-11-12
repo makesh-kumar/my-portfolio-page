@@ -17,7 +17,10 @@
 }
 .work-desc {
   /* border: 1px solid blue; */
-  height: 100px;
+  /* height: 100px; */
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
 }
 @media all and (max-width: 600px) {
   .work,

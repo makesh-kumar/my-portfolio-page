@@ -78,6 +78,9 @@
   color: white;
   cursor: pointer;
 }
+a {
+  color: black;
+}
 .btn {
   padding: 10px;
   font-family: "Poppins", sans-serif;

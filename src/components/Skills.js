@@ -17,30 +17,38 @@ function Skills() {
             <p> - HTML 5</p>
           </div>
           <div className="skil-value">
-            <p> - CSS 3</p>
+            <p> - CSS 3 (LESS with BEM, SCSS)</p>
           </div>
           <div className="skil-value">
             <p> - Typescript</p>
           </div>
           {/* <br/> */}
           <div className="skil-value">
-            <p> - Angular 2+</p>
+            <p> - Angular 2+ (Angular Material, RxJs)</p>
           </div>
           <div className="skil-value">
             <p> - React (React Redux, Formik, Yup, Material-Ui)</p>
           </div>
         </div>
         <div className="skills-body secondary">
-        <div className="skill-header">
+          <div className="skill-header">
             <FaCode /> <span>Other Skills</span>
           </div>
           <div className="skil-value">
-            <p> - JavaScript (ES6)</p>
+            <p> - NodeJS</p>
           </div>
           <div className="skil-value">
-            <p> - JavaScript (ES6)</p>
+            <p> - ExpressJS</p>
           </div>
-          
+          <div className="skil-value">
+            <p> - MongoDb (Mongoose)</p>
+          </div>
+          <div className="skil-value">
+            <p> - GIT (Bitbucket, Github)</p>
+          </div>
+          <div className="skil-value">
+            <p> - Docker / Jenkins (Basics)</p>
+          </div>
         </div>
       </div>
     </div>

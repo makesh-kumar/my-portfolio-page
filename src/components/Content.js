@@ -39,27 +39,62 @@ function Content() {
               Wipro Technologies
             </div>
             <div className="icon-list">
-              <div className="icon">
+              <a
+                href="https://github.com/makesh-kumar"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
                 <FaGithub />
-              </div>
-              <div className="icon">
+              </a>
+              <a
+                href="https://linkedin.com/in/makesh-kumar/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
                 <FaLinkedinIn />
-              </div>
-              <div className="icon">
+              </a>
+              <a
+                href="tel:+919095774441"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
                 <FaPhone />
-              </div>
-              <div className="icon">
+              </a>
+              <a
+                href="mailto:mynameismakesh@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
                 <FaRegEnvelope />
-              </div>
-              <div className="icon">
+              </a>
+              <a
+                href="https://twitter.com/this_is_makesh"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
                 <FaTwitter />
-              </div>
-              <div className="icon">
+              </a>
+              <a
+                href="https://www.facebook.com/makesh.thedon"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
                 <FaFacebookF />
-              </div>
-              <div className="icon">
+              </a>
+              <a
+                href="https://codepen.io/makesh-kumar"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
                 <FaCodepen />
-              </div>
+              </a>
             </div>
           </div>
         </div>

@@ -29,7 +29,9 @@
 .links {
   font-weight: 600;
   padding-right: 15px;
+  color: rgb(99, 7, 99);
 }
+
 @media all and (max-width: 600px) {
   .others,
   .others-container {
