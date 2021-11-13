@@ -1,7 +1,7 @@
 .others {
   margin: 10px;
   /* border: 1px solid green; */
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #fdd538;
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
@@ -9,10 +9,10 @@
 
 .others-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-wrap: wrap;
-  height: 100vh;
+  /* height: 100vh; */
   /* border: 1px solid rebeccapurple; */
   gap: 30px;
   padding: 20px;
@@ -25,6 +25,7 @@
   /* border: 1px solid rebeccapurple; */
   border-radius: 10px;
   padding: 10px;
+  min-height: 230px;
 }
 .links {
   font-weight: 600;

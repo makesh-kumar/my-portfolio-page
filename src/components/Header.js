@@ -30,8 +30,8 @@ function Header() {
           <Link className="item" to="/work">
             Work
           </Link>
-          <Link className="item" to="/others">
-            Others
+          <Link className="item" to="/projects">
+            Projects
           </Link>
         </div>
 
@@ -68,8 +68,8 @@ function Header() {
           <Link className="menu-item" to="/work">
             Work
           </Link>
-          <Link className="menu-item" to="/others">
-            Others
+          <Link className="menu-item" to="/projects">
+            Projects
           </Link>
         </div>
       )}

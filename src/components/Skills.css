@@ -26,6 +26,9 @@
 .skill-header {
   font-size: 20px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .skil-value {
   font-weight: 400;
@@ -36,7 +39,16 @@
   position: relative;
   top: 5px;
 }
+ul {
+  margin: 10px 0;
+}
+h4 {
+  margin: 0px;
+}
 @media all and (max-width: 600px) {
+  .skills {
+    height: auto;
+  }
   .skills-container {
     flex-direction: column;
   }

@@ -100,24 +100,23 @@ function Content() {
         </div>
         <div className="bio">
           <h1>About Me</h1>
-          <h3>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </h3>
+          <div className="bio-desc">
+            &nbsp;&nbsp;&nbsp; Hi 👋 there, My Name is <strong>Makesh</strong>,
+            I'm an Engineering graduate and a web developer with 2 years of
+            experience in the IT industry, I'm very much passionate about
+            developing web applications with a nice and cool user interface
+            using modern
+            <strong>Javascript</strong> frameworks like <strong>Angular</strong>
+            , <strong>React</strong>.
+          </div>
+          <br />
+          {/* <div className="bio-desc">
+            I'm intersted in building applications end to end on MEAN/MERN stack
+            technologies,and have a keen intrest in debugging and fixing issues
+          </div> */}
 
-          <a
-            href="https://drive.google.com/file/d/1vAZG88-X4lA3NMYYpnxh8ifycsfKh13f/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn"
-          >
+          {/* https://drive.google.com/file/d/1vAZG88-X4lA3NMYYpnxh8ifycsfKh13f/view?usp=sharing */}
+          <a href="#" target="_blank" rel="noopener noreferrer" className="btn">
             See my Resume
           </a>
         </div>

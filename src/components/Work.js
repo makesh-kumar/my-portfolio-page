@@ -7,13 +7,14 @@ function Work() {
     <div className="work">
       <div className="work-container">
         {/* <h2>Work Experience (2.5 years)</h2> */}
-        <div className="work-header">
-          <HiOutlineOfficeBuilding /> Wipro Technologies{" "}
-          <i>(June 2019 - Present)</i>
-        </div>
+
         <div className="work-desc">
+          <div className="work-header">
+            <HiOutlineOfficeBuilding className="work-icon" /> Wipro Technologies
+            (June 2019 - Present)
+          </div>
           <p>
-            Project Name : <strong>Cloud Email Security (CESv2)</strong>
+            Project Name : <strong>Cisco Email Security (CESv2)</strong>
           </p>
           <p>
             Customer : <strong>CISCO Systems</strong>
@@ -22,24 +23,32 @@ function Work() {
             About Project :{" "}
             <strong>
               Cisco Email Security (CESv2) is a new generation email security
-              product owned by CISCO. This CESv2 web product is completely based
-              on the cloud which helps admins to monitor, quarantine, and
-              configure the incoming and outgoing emails within the
-              organization.
+              product owned by CISCO. This CESv2 web product is completely cloud
+              based aplication which helps admins/users to monitor, quarantine,
+              scan and configure the incoming and outgoing emails within the
+              organization.It is the best defense against phishing, business
+              email compromise (BEC), malware, and ransomwares.
             </strong>
           </p>
           <p>
             Role : <strong>UI Developer</strong>
           </p>
           <p>
-            Team Size : <strong>20</strong>
+            Team Size : <strong>12</strong>
           </p>
           <p>
             Methodology : <strong>Agile</strong>
           </p>
           <p>
-            Responsibilities
+            Responsibilities :
             <ul>
+              <li>
+                <strong>
+                  {" "}
+                  Involving in requirement analysis for new feature
+                  implementations.
+                </strong>
+              </li>
               <li>
                 <strong>
                   {" "}
@@ -51,18 +60,27 @@ function Work() {
               <li>
                 <strong>
                   {" "}
+                  Writing unit tests and doing reviewing the team members code
+                  to maintain good and healthy codebase.
+                </strong>
+              </li>
+              <li>
+                <strong>
+                  {" "}
                   Following standard CISCO user interface guidelines which
                   include atomic design rules and other standards.
                 </strong>
               </li>
               <li>
                 <strong>
-                  Updating task status regularly in Rally for better tracking
+                  Attending Scrum call and updating task status regularly in
+                  Rally for better tracking.
                 </strong>
               </li>
               <li>
                 <strong>
-                  Fixing the bugs raised by the testing team and updating CDETS.
+                  Fixing the bugs raised by the testing team / Customers and
+                  updating CDETS tool.
                 </strong>
               </li>
             </ul>

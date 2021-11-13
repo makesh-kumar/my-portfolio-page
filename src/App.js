@@ -22,7 +22,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/skills" exact component={Skills} />
           <Route path="/work" exact component={Work} />
-          <Route path="/others" exact component={Others} />
+          <Route path="/projects" exact component={Others} />
           <Route path="**" exact component={Content} />
         </Switch>
       </BrowserRouter>
